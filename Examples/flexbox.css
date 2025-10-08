@@ -55,7 +55,7 @@ hr {
     flex-direction: row; 
     
     /* Distributes space BETWEEN the items along the Main Axis */
-    justify-content: space-between; 
+    justify-content: space-evenly; 
     
     /* Centers items vertically along the Cross Axis */
     align-items: center; 
@@ -94,7 +94,7 @@ hr {
 
 .card-1 {
     /* Grows to consume available space (1 part) */
-    flex-grow: 1; 
+    flex-grow: 2; 
     background-color: #ffc107;
 }
 
